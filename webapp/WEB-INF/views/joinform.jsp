@@ -7,6 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Hello ${name }</h1>
+	<form method="post" action="/hellospring/user/join">
+		이름: <input type="text" name="name" value=""><br>
+		이메일: <input type="text" name="email" value=""><br>
+		비밀번호: <input type="text" name="password" value=""><br>
+		<input type="submit" value="가입">
+	</form>
 </body>
 </html>
